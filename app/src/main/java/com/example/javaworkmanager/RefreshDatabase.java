@@ -10,7 +10,7 @@ import androidx.work.WorkerParameters;
 
 public class RefreshDatabase  extends Worker {
 
-    Context myContext
+    Context myContext;
 
     public RefreshDatabase(@NonNull Context context, @NonNull WorkerParameters workerParams) {
         super(context, workerParams);
